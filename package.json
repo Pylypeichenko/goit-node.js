@@ -18,6 +18,7 @@
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.2",
     "chokidar": "^3.5.3",
+    "commander": "^9.4.1",
     "concat-map": "^0.0.1",
     "debug": "^3.2.7",
     "fill-range": "^7.0.1",
