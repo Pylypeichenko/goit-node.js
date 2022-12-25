@@ -62,17 +62,17 @@ function invokeAction({ action, id, name, email, phone }) {
       break;
 
     case "add":
-      const [, , , , name, email, phone] = process.argv;
+      const [, , , , , name, , email, , phone] = process.argv;
       doSomeAction({ action, name, email, phone });
       break;
 
     case "remove":
-      // const [, , , , , id] = process.argv;
+      const [, , , , , id] = process.argv;
       doSomeAction({ action, id });
       break;
 
     case "get":
-      const [, , , , , id] = process.argv;
+      // const [, , , , , id] = process.argv;
       doSomeAction({ action, id });
       break;
 
